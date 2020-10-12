@@ -1,0 +1,33 @@
+{
+"$schema": "http://json-schema.org/draft-04/schema#",
+"type": "object",
+"properties": {
+    "students": {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1, 
+        "items": {
+            "required": ["surname", "grades"]
+        }
+    },
+    "surname": {
+        "type": "string",
+        "minLength": 1
+    },
+    "grades": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+            "required": ["subject", "grade"]
+        },
+            "subject": {
+                "type": "string",
+                "minLength": 1
+            },
+            "grade": {
+                "type": "number"
+            }
+    }
+},
+"required": ["students"]
+}

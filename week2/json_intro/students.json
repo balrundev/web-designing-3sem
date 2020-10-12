@@ -1,0 +1,55 @@
+{
+    "students": [
+        {
+            "surname": "Иванов",
+            "grades": [
+                {
+                    "subject": "Информационные технологии",
+                    "grade": 5
+                }
+            ]
+        },
+        {
+            "surname": "Петрова",
+            "grades": [
+                {
+                    "subject": "Мультимедиа",
+                    "grade": 3
+                },
+                {
+                    "subject": "Веб-дизайн",
+                    "grade": 4
+                },
+                {
+                    "subject": "Графика",
+                    "grade": 5
+                },
+                {
+                    "subject": "Логика",
+                    "grade": 5
+                }
+            ]
+        },
+        {
+            "surname": "Сидоренко",
+            "grades": [
+                {
+                    "subject": "Мультимедиа",
+                    "grade": 3
+                },
+                {
+                    "subject": "Веб-дизайн",
+                    "grade": 4
+                },
+                {
+                    "subject": "Графика",
+                    "grade": 5
+                },
+                {
+                    "subject": "Логика",
+                    "grade": 4
+                }
+            ]
+        }
+    ]
+}
