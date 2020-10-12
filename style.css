@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+#header {
+    background: linear-gradient(to right, #000046, #1CB5E0);
+    padding: 30px 20px;
+    text-align: center;
+}
+#header h1 {
+    font-size: 20pt;
+    font-weight: 300;
+    color: #ffffff;
+}
+#header h1 span {
+    white-space: nowrap;
+}
+#content {
+    width: 100%;
+    padding: 40px 20px;
+    min-height: calc(100vh - 157px);
+}
+#task-blocks {
+    width: 80%;
+    margin: 0 auto;
+}
+.task-block {
+    display: block;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+    transition: background-color 0.25s;
+    text-decoration: none;
+}
+.task-block:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+.task-block:last-child {
+    margin-bottom: 0;
+}
+.task-block h2 {
+    padding-bottom: 15px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #212121;
+}
+.task-block p {
+    padding-bottom: 15px;
+    line-height: 1.6em;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #212121;
+}
+#footer {
+    padding: 20px;
+    background: linear-gradient(to right, #000046, #1CB5E0);
+    text-align: center;
+}
+#footer p {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: 400;
+}
+@media (max-width: 450px) {
+    #task-blocks {
+        width: 100%;
+    }
+}
