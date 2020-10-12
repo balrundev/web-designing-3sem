@@ -63,8 +63,13 @@
 }
 #footer p {
     color: #ffffff;
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 400;
+    margin-bottom: 1em;
+}
+#footer p:last-child {
+    font-size: 12pt;
+    margin-bottom: 0;
 }
 @media (max-width: 450px) {
     #task-blocks {
