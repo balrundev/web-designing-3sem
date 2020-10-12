@@ -4,6 +4,9 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+strong {
+    font-weight: 600;
+}
 #header {
     background: linear-gradient(to right, #000046, #1CB5E0);
     padding: 30px 20px;
